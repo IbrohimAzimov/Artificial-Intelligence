@@ -1,4 +1,8 @@
 import photo from '../../assets/raketa.png'
+import img1 from '../../../public/Group 1.svg'
+import img2 from '../../../public/Group 2.svg'
+import img3 from '../../../public/Group 3.svg'
+import img4 from '../../../public/Group 4.svg'
 import { IoMdPlay } from "react-icons/io";
 
 export default function Header() {
@@ -22,10 +26,10 @@ export default function Header() {
             </div>
 
             <div className="flex flex-wrap justify-center gap-20 items-center mt-20">
-                <img src="/Group 1.svg" alt="img" />
-                <img src="/Group 2.svg" alt="img" />
-                <img src="/Group 3.svg" alt="img" />
-                <img src="/Group 4.svg" alt="img" />
+                <img src={img1} alt="img" />
+                <img src={img2} alt="img" />
+                <img src={img3} alt="img" />
+                <img src={img4} alt="img" />
             </div>
         </div>
     </>

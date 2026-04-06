@@ -6,6 +6,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { FiTwitter } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { SlSocialYoutube } from "react-icons/sl";
+import logo from '../../../public/Logo.svg'
 import { TbWorld } from "react-icons/tb";
 
 export default function Footer() {
@@ -14,7 +15,7 @@ export default function Footer() {
         <footer className="bg-[#070f1c] px-30 py-20">
             <div className="flex justify-center gap-15 flex-wrap">
                 <div>
-                    <img src="/Logo.svg" alt="img" />
+                    <img src={logo} alt="img" />
                     <h2 className="text-blue-400 mt-3">Artificial Intelligence</h2>
                     <p className="text-white text-sm opacity-60 mt-2">Lorem ipsum is placeholder text <br /> commonly used in the graphic, print, and <br /> layouts and visual mockups.</p>
 
